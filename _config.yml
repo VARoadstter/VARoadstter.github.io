@@ -31,7 +31,7 @@ kramdown:
 # Add navigation links for the new pages
 navigation:
   - title: "Home"
-    url: "/"
+    url: "/index.html"
   - title: "Services"
     url: "/services.html"
   - title: "About Us"
