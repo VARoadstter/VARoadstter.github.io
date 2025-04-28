@@ -1,7 +1,7 @@
 title: "VARoadstter Solutions"
 description: "Mobile solutions for small businesses."
 baseurl: "" # Leave empty for root deployment
-url: "https://VARoadstter.github.io" # Replace with your GitHub Pages URL
+url: "https://varoadstter.github.io" # Replace with your GitHub Pages URL
 
 # Theme configuration
 #theme: minimal-mistakes-jekyll
