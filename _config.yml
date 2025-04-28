@@ -4,7 +4,7 @@ baseurl: "" # Leave empty for root deployment
 url: "https://VARoadstter.github.io" # Replace with your GitHub Pages URL
 
 # Theme configuration
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 
 # Author information
 author:
@@ -27,3 +27,16 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Add navigation links for the new pages
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Services"
+    url: "/services.html"
+  - title: "About Us"
+    url: "/about.html"
+  - title: "Portfolio"
+    url: "/portfolio.html"
+  - title: "Contact"
+    url: "/contact.html"
