@@ -1,0 +1,29 @@
+title: "VARoadstter Solutions"
+description: "Mobile solutions for small businesses."
+baseurl: "" # Leave empty for root deployment
+url: "https://VARoadstter.github.io" # Replace with your GitHub Pages URL
+
+# Theme configuration
+theme: minimal-mistakes-jekyll
+
+# Author information
+author:
+  name: "VARoadstter Solutions"
+  email: "your-email@example.com" # Replace with your email
+
+# Social links (optional)
+social_links:
+  #twitter: "https://twitter.com/yourhandle"
+  linkedin: "https://linkedin.com/in/Hal-darby-software-developer"
+
+# Plugins
+remote_theme: pages-themes/modernist@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-feed
+- jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
