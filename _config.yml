@@ -1,6 +1,6 @@
 title: "VARoadstter Solutions"
 description: "Mobile solutions for small businesses."
-baseurl: "_site/" # Leave empty for root deployment
+baseurl: "" # Leave empty for root deployment
 url: "https://varoadstter.github.io" # Replace with your GitHub Pages URL
 
 # Theme configuration
