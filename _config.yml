@@ -17,7 +17,7 @@ social_links:
   linkedin: "https://linkedin.com/in/Hal-darby-software-developer"
 
 # Plugins
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-feed
