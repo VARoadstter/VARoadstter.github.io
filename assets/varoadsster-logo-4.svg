@@ -1,0 +1,37 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ECC71" />
+      <stop offset="100%" stop-color="#1D8348" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Logo Mark: VA + TT Monogram -->
+  <g transform="translate(145, 50)">
+    <!-- V shape -->
+    <path d="M0,0 L40,100 L80,0" fill="none" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    
+    <!-- A shape -->
+    <path d="M105,100 L145,0 L185,100" fill="none" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    <line x1="115" y1="60" x2="175" y2="60" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    
+    <!-- TT shapes (stylized to look like digital elements) -->
+    <line x1="40" y1="120" x2="40" y2="180" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    <line x1="10" y1="120" x2="70" y2="120" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    
+    <line x1="145" y1="120" x2="145" y2="180" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    <line x1="115" y1="120" x2="175" y2="120" stroke="url(#techGreen)" stroke-width="15" stroke-linecap="round" />
+    
+    <!-- Android elements (subtle) -->
+    <circle cx="40" cy="25" r="5" fill="#1D8348" />
+    <circle cx="145" cy="25" r="5" fill="#1D8348" />
+  </g>
+  
+  <!-- Company Name -->
+  <text x="250" y="250" font-family="Arial, sans-serif" font-weight="bold" font-size="30" fill="#333333" text-anchor="middle">
+    <tspan fill="#2ECC71">VA</tspan>Roads<tspan fill="#2ECC71">TT</tspan>er
+  </text>
+  
+  <!-- Tagline -->
+  <text x="250" y="275" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">SOLUTIONS CONSULTING LLC</text>
+</svg>
