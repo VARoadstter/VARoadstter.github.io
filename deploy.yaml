@@ -1,9 +1,9 @@
 # filepath: /workspaces/VARoadstter.github.io/.github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches: [ main ]
+#on:
+#  push:
+ #   branches: [ main ]
 
 jobs:
   build-and-deploy:
