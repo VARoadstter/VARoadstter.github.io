@@ -1,4 +1,4 @@
-# filepath: /workspaces/VARoadstter.github.io/varoadstter.github.io/.github/workflows/deploy.yml
+# filepath: /workspaces/VARoadstter.github.io/.github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
