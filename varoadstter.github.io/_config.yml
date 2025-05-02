@@ -1,0 +1,22 @@
+title: My GitHub Pages Site
+description: A modern website using a blue and green color scheme.
+url: https://varoadstter.github.io
+baseurl: ""
+theme: minima
+author:
+  name: Your Name
+  email: your.email@example.com
+social:
+  twitter: your_twitter_handle
+  github: your_github_username
+  linkedin: your_linkedin_profile
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - .gitignore
