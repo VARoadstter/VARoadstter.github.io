@@ -20,8 +20,8 @@ jobs:
           # Create the output directory
           mkdir -p output
 
-          # Convert about.md to HTML and apply style.css
-          pandoc about.md -o output/about.html --css=style.css
+          # Convert about.md to HTML using the default.html layout and apply style.css
+          pandoc about.md -o output/about.html --template=_layouts/default.html --css=../css/style.css
 
 
       - name: Deploy 🚀
