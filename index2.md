@@ -22,7 +22,7 @@ VARoadstter Solutions specializes in mobile solutions for small businesses. We p
 - Expertise in value-added reseller solutions
 - Tailored solutions for businesses of all sizes
 - Reliable and professional service
-- Learn more [About Us](about.md)
+- Learn more [About Us](about)
 
 ## Get Started
-[Contact us](contact.html) today to learn how we can help your business thrive.
+[Contact us](contact) today to learn how we can help your business thrive.

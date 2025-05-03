@@ -1,15 +1,15 @@
-title: My GitHub Pages Site
-description: A modern website using a blue and green color scheme.
+title: VARoadstter Solutions Consulting
+description: A modern website using a green color scheme.
 url: https://varoadstter.github.io
 baseurl: ""
-theme: minima
+# theme: minima
 author:
-  name: Your Name
-  email: your.email@example.com
+  name: Hal Darby
+  email: varoadstter@gmail.com
 social:
-  twitter: your_twitter_handle
-  github: your_github_username
-  linkedin: your_linkedin_profile
+  twitter: your_actual_twitter_handle
+  github: your_actual_github_username
+  linkedin: your_actual_linkedin_profile
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -20,3 +20,13 @@ exclude:
   - Gemfile.lock
   - .github
   - .gitignore
+include:
+  - assets
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+defaults:
+  - scope:
+      path: "" # Applies to all files
+    values:
+      layout: default
