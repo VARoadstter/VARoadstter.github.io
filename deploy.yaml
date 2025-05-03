@@ -1,5 +1,5 @@
 # filepath: /workspaces/VARoadstter.github.io/.github/workflows/deploy.yml
-name: Deploy to GitHub Pages
+name: Root Deploy to GitHub Pages
 
 #on:
 #  push:
@@ -17,4 +17,5 @@ jobs:
         with:
           branch: gh-pages
           folder: .
+          target-folder: output
           clean: true
