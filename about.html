@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description" content="Welcome to VARoadstter Solutions.">
+    <meta property="og:title" content="VARoadstter">
+    <meta property="og:image" content="../assets/background_image.jpg">
+    <meta property="og:url" content="https://varoadstter.github.io">
+</head>
+<body>
+    <div id="header"></div>
+    <div id="hero"></div>
+    <script>
+        async function loadHTML(id, filePath) {
+            const response = await fetch(filePath);
+            const content = await response.text();
+            document.getElementById(id).innerHTML = content;
+        }
+        loadHTML('header', '../partials/header.html');
+        loadHTML('hero', '../partials/hero.html');
+    </script>
+    <main>
+        <h1 id="about-varoadstter-solutions">About VARoadstter
+        Solutions</h1>
+        <h2 id="our-mission">Our Mission</h2>
+        <p>To provide innovative, integrated technology solutions
+        combining expertise in software development, AI, cloud
+        infrastructure, mobile applications, mechanical engineering, and
+        chemical principles to solve complex client challenges, while
+        actively fostering the next generation of technologists through
+        community STEM engagement.</p>
+        <h2 id="our-vision">Our Vision</h2>
+        <p>To be the go-to consulting partner for businesses seeking
+        holistic technical solutions, recognized for both our technical
+        excellence and our commitment to supporting local youth STEM
+        programs like FIRST Robotics.</p>
+        <h2 id="our-team">Our Team</h2>
+        <ul>
+        <li><strong>Wendy Darby</strong>: Lead Consultant - AI &amp;
+        Cloud Solutions</li>
+        <li><strong>Hal Darby</strong>: Lead Consultant - Mobile &amp;
+        Software Architecture</li>
+        <li><strong>Matthew Darby</strong>: Junior Consultant/Intern -
+        Mechanical Design &amp; Analysis</li>
+        <li><strong>Charlie Darby</strong>: Research Consultant -
+        Chemical &amp; Materials Science</li>
+        </ul>
+        <h2 id="our-story">Our Story</h2>
+        <p>VARoadstter Solutions began as a family of makers, creators,
+        and problem solvers. From a love of cars to mentoring robotics
+        teams, our journey has been fueled by passion and innovation.
+        Today, we bring that same energy to solving complex challenges
+        for our clients.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 VARoadstter Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
