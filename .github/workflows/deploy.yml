@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages using Pandoc
 
 on:
   push:
@@ -26,11 +26,20 @@ jobs:
           pandoc about.md -o output/about.html --template=_layouts/default.html --css=../css/style.css
           echo "about.html generated"
 
+          # Copy root HTML files into the output directory
+          cp *.html output/
+          echo "Root HTML files copied to output directory"
+
+          # Copy additional folders into the output directory
+          cp -r css output/
+          cp -r assets output/
+          cp -r partials output/
+          cp -r js output/
+          echo "CSS, assets, partials, and JS folders copied to output directory"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # The branch the action should deploy to
-          folder: .         # The folder the action should deploy
-          target-folder: output # include generated files from pandoc build command
+          folder: output    # Deploy the combined output directory
           clean: true       # Automatically remove deleted files from the deploy branch
