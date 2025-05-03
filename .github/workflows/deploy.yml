@@ -19,11 +19,11 @@ jobs:
           echo "Pandoc installed"
 
           # Create the output directory
-          mkdir -p output
+          mkdir -p _site
           echo "output directory created"
 
           # Convert about.md to HTML using the default.html layout and apply style.css
-          pandoc about.md -o output/about.html --template=_layouts/default.html --css=../css/style.css
+          pandoc about.md -o _site/about.html --template=_layouts/default.html --css=../css/style.css
           echo "about.html generated"
 
           # Copy root HTML files into the output directory
@@ -31,15 +31,15 @@ jobs:
           echo "Root HTML files copied to output directory"
 
           # Copy additional folders into the output directory
-          cp -r css output/
-          cp -r assets output/
-          cp -r partials output/
-          cp -r js output/
+          cp -r css _site/
+          cp -r assets _site/
+          cp -r partials _site/
+          cp -r js _site/
           echo "CSS, assets, partials, and JS folders copied to output directory"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # The branch the action should deploy to
-          folder: output    # Deploy the combined output directory
+          folder: _site    # Deploy the combined output directory
           clean: true       # Automatically remove deleted files from the deploy branch
